@@ -25,7 +25,7 @@ SECRET_KEY = 'v@(h3yx*a0z%b&21f)ihv$t*+_%ee2e8(hcd!&&!_@#9*)w!2*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['88eb62c059c74953b41887d047f9a557.vfs.cloud9.us-east-2.amazonaws.com']
 
 
 # Application definition
@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    
+    'pages',
+    'products',
 ]
 
 MIDDLEWARE = [
